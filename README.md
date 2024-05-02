@@ -1,2 +1,1 @@
-# sponsors
-My lovely sponsors
+# My lovely sponsors
