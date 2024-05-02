@@ -25,7 +25,7 @@ jobs:
           SPONSORKIT_GITHUB_TYPE: user
       - uses: EndBug/add-and-commit@v9
         with:
-          add: "sponsorkit/sponsors.*"
+          add: "sponsors.*"
           message: "chore: update sponsors"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
