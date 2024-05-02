@@ -7,9 +7,10 @@ export default defineConfig({
   patreon: {},
   afdian: {},
   // Rendering configs
+  outputDir: '.',
   width: 800,
-  renderer: 'tiers',
   formats: ['json', 'svg', 'png'],
+  renderer: 'tiers',
   tiers: [
     {
       title: 'Past Sponsors',
@@ -17,12 +18,11 @@ export default defineConfig({
       preset: tierPresets.medium,
     },
     {
-      title: 'Sponsors',
-      monthlyDollars: 5,
+      title: 'Silver Sponsors',
       preset: tierPresets.large,
     },
     {
-      title: 'Sponsors',
+      title: 'Gold Sponsors',
       monthlyDollars: 10,
       preset: tierPresets.xl,
     },
