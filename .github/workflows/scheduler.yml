@@ -20,6 +20,7 @@ jobs:
         env:
           SPONSORKIT_GITHUB_TOKEN: ${{ secrets.SPONSORKIT_GITHUB_TOKEN }}
           SPONSORKIT_GITHUB_LOGIN: nozomuikuta
+          SPONSORKIT_GITHUB_TYPE: user
       - uses: EndBug/add-and-commit@v9
         with:
           add: "sponsors.*"
